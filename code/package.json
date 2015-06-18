@@ -9,10 +9,29 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-eslint": "^3.1.15",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.14.5",
+    "cssnext-loader": "^1.0.1",
+    "eslint": "^0.22.1",
+    "eslint-plugin-react": "^2.5.0",
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.5",
     "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^1.2.7",
+    "style-loader": "^0.12.3",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.5.8",
+    "babel-runtime": "^5.5.8",
+    "core-js": "^0.9.17",
+    "cssrecipes-reset": "^0.5.0",
+    "flummox": "^3.5.2",
+    "meyer-css-reset": "file:modules/reset",
+    "react": "^0.13.3"
   }
 }

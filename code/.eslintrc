@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+
+  "plugins": [
+      "react"
+  ],
+
+  "env": {
+    "browser": 1,
+    "node": 1,
+    "es6": 1
+  },
+
+  "rules": {
+    "global-strict": 0,
+    "strict": 0,
+    "quotes": 0,
+    "no-unused-vars": 0
+  }
+}

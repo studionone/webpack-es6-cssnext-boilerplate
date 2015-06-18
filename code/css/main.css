@@ -1,0 +1,17 @@
+@import "meyer-css-reset/reset.css";
+
+#app {
+    background-color: color(var(--main-color) tint(50%));
+}
+
+@media (--mobile) {
+    #app {
+        background-color: blue;
+    }
+}
+
+@media (--tablet) {
+    #app {
+        background-color: green;
+    }
+}
